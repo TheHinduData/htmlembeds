@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image tag using binary URL for better quality </title>
+</head>
+
+<body>
+    <!-- Insert the binary url of image -->
+    <img src="#url-goes-here" width="100%" alt="any seo friendly text can go here">
+</body>
+
+</html>
