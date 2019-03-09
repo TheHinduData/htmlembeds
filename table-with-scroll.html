@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Table with scroll</title>
+</head>
+<body>
+    <style>
+        .table-scroll { width: 600px; overflow-x: auto; margin: 0 auto; }
+        .table-scroll table { border-collapse: collapse; width: 100%; }
+        .table-scroll table td,.table-scroll table th { border: 1px solid #ddd; padding: 8px;}
+        .table-scroll table tr:nth-child(even) { background-color: #f2f2f2; }
+        .table-scroll table tr:hover { background-color: #ddd;}
+        .table-scroll table th { padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #4CAF50; color: white; }
+        .table-scroll table td { padding: 5px; }
+        @media(min-width: 1600px) {
+            .table-scroll { width: 900px; }
+        }
+        @media (max-width: 767px) and (min-width: 1px) {
+            .table-scroll { width: 100%; }
+        }
+    </style>
+    <div class="table-scroll">
+        <!-- Insert HTML table Here -->
+    </div>
+</body>
+</html>
